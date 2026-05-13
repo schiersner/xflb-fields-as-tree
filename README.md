@@ -14,4 +14,5 @@ Die Ministerpräsidenten haben am 04.12.2025 einen [Beschluss zur **Staatsmodern
 
 - [Übersicht auf xrepository.de](https://www.xrepository.de/details/urn:xoev-de:kosit:standard:xflb_2.0.0) mit Zusatzdokumenten wie Code-Listen
 - [Spezifikation (pdf)](https://www.xrepository.de/api/xrepository/urn:xoev-de:kosit:standard:xflb_2.0.0:dokument:XFLB_2.0.0_Spezifikation)
-- [Ansicht der Datenfelder in Baumstruktur (dieses Repo)](xflb-fields-as-tree.txt)
+- [Ansicht der Datenfelder in Baum-Struktur (dieses Repo)](xflb-fields-as-tree.txt)
+
