@@ -1,6 +1,7 @@
 # xflb-fields-as-tree
-**xFoerderleistungsbeschreibung (XFLB): Datenfelder in Baum-Struktur**
-**tl;dr**: Der Standard XFLB (V 2.0.0) wäre mit einer Ansicht der Datenfelder in Baumstruktur leichter nachzuvollziehen. Dieses Repo bietet eine entsprechende Ansicht.
+**XFoerderleistungsbeschreibung (XFLB): Datenfelder in Baum-Struktur**
+
+**tl;dr**: Der Standard XFLB (V 2.0.0) wäre mit einer Ansicht der Datenfelder in Baum-Struktur leichter nachzuvollziehen. Dieses Repo bietet [eine entsprechende Ansicht](xflb-fields-as-tree.txt).
 
 ## MPK-Beschluss
 Die Ministerpräsidenten haben am 04.12.2025 einen [Beschluss zur **Staatsmodernisierung** (pdf)](https://www.bundesregierung.de/resource/blob/975228/2397654/c57248be7fa2d61ab6d8b12c0f29f05b/2025-12-04-mpk-staatsmodernisierung-data.pdf) gefasst. Im Abschnitt **Förderverfahren** wurde u.a. festgelegt:
@@ -13,3 +14,4 @@ Die Ministerpräsidenten haben am 04.12.2025 einen [Beschluss zur **Staatsmodern
 
 - [Übersicht auf xrepository.de](https://www.xrepository.de/details/urn:xoev-de:kosit:standard:xflb_2.0.0) mit Zusatzdokumenten wie Code-Listen
 - [Spezifikation (pdf)](https://www.xrepository.de/api/xrepository/urn:xoev-de:kosit:standard:xflb_2.0.0:dokument:XFLB_2.0.0_Spezifikation)
+- [Ansicht der Datenfelder in Baumstruktur (dieses Repo)](xflb-fields-as-tree.txt)
