@@ -1,0 +1,39 @@
+Datenfelder, die Pflichtfelder sind oder Pflichtfelder von Pflichtfeldern.
+
+Offen:  
+- "foerderrichtlinieUndFoerderprogramm" hat kein Sub-Feld als Pflichtfeld ausgewiesen. (Hier ersatzweise "verantwortlichesMinisterium" aufgeführt)
+- "foerdergebiet" hat alle Subfelder als Pflichtfeld ausgewiesen, obwohl sie einander ausschließen.
+
+
+Foerderleistungsbeschreibung
+├── 1  metainformationen (type xflb:Metainformationen))
+│  └── 1     letzteAktualisierung (type xflb:DatumUndUhrzeit))
+├── 1  zuordnungen (type xflb:Zuordnungen)
+│  └── 1     interneKennung (type xflb:InterneKennung)
+├── 1  allgemeineAngaben (type xflb:Allgemeines)
+│  ├── 1     titel (type xflb:Bezeichnung)
+│  ├── 1     beschreibung (type xflb:DarstellungDerFoerderleistung)
+│  │  ├── 1     zuwendungszweck (type xflb:Beschreibung)
+│  │  └── 1     teaser (type xflb:Kurzbeschreibung)
+│  └── 1     zustaendigeStelle (type xflb:ZustaendigeStelle)
+├── 1  foerdernehmende (type xflb:Foerdernehmende)
+│  └── 1..*  foerdernehmende (type xflb:Code.Foerdernehmende)
+├── 1  finanzierung (type xflb:Finanzierung)
+│  ├── 1     finanzierungsformen (type xflb:Finanzierungsformen)
+│  └── 1     finanzierungsartUndHoehe (type xflb:Beschreibung)
+├── 1  foerderrichtlinieUndFoerderprogramm (type xflb:FoerderrichtlinieUndFoerderprogramm)
+│  └── 0..1  verantwortlichesMinisterium (type xflb:Bezeichnung)
+├── 1  foerdergegenstand (type xflb:Foerdergegenstand)
+│  └── 1     beschreibung (type xflb:Kurzbeschreibung)
+├── 1  foerderbereich (type xflb:Foerderbereich)
+│  └── 1..*  foerderbereich (type xflb:Code.Foerderbereich)
+├── 1  foerdervoraussetzungen [type xflb:Foerdervoraussetzungen
+│  └── 1     buergerfreundlicheBeschreibung (type xflb:Beschreibung)
+├── 1    (type xflb:Antragsinformationen)
+│  ├── 1     linkZurAntragsstellung (type xflb:URINichtLeer)
+│  └── 1     beantragungskosten (type xflb:Beantragungskosten)
+└── 1  foerdergebiet (type xflb:Foerdergebiet)
+   ├── 1   laender (type xflb:Laender)
+   ├── 1   kommune (type xflb:Bezeichnung)
+   ├── 1   eu (type xflb:AuswahllistenwertFix)
+   └── 1   bund (type xflb:AuswahllistenwertFix)
