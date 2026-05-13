@@ -1,4 +1,6 @@
-# xflb-fields-as-tree
+- "foerdergebiet" hat alle Subfelder als Pflichtfeld ausgewiesen, obwohl sie einander ausschließen.
+- "foerdergebiet" hat alle Subfelder als Pflichtfeld ausgewiesen, obwohl sie einander ausschließen.
+xflb-required-fields-as-tree.txt# xflb-fields-as-tree
 **XFoerderleistungsbeschreibung (XFLB): Datenfelder in Baum-Struktur**
 
 **tl;dr**: Der Standard XFLB (V 2.0.0) wäre mit einer Ansicht der Datenfelder in Baum-Struktur leichter nachzuvollziehen. Dieses Repo bietet [eine entsprechende Ansicht](xflb-fields-as-tree.txt).
@@ -15,4 +17,4 @@ Die Ministerpräsidenten haben am 04.12.2025 einen [Beschluss zur **Staatsmodern
 - [Übersicht auf xrepository.de](https://www.xrepository.de/details/urn:xoev-de:kosit:standard:xflb_2.0.0) mit Zusatzdokumenten wie Code-Listen
 - [Spezifikation (pdf)](https://www.xrepository.de/api/xrepository/urn:xoev-de:kosit:standard:xflb_2.0.0:dokument:XFLB_2.0.0_Spezifikation)
 - [Ansicht der Datenfelder in Baum-Struktur (dieses Repo)](xflb-fields-as-tree.txt)
-
+- [Ansicht der Pflicht-Datenfelder in Baum-Struktur (dieses Repo)](xflb-required-fields-as-tree.txt)
