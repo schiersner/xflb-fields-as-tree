@@ -1,6 +1,3 @@
-- "foerdergebiet" hat alle Subfelder als Pflichtfeld ausgewiesen, obwohl sie einander ausschließen.
-- "foerdergebiet" hat alle Subfelder als Pflichtfeld ausgewiesen, obwohl sie einander ausschließen.
-xflb-required-fields-as-tree.txt# xflb-fields-as-tree
 **XFoerderleistungsbeschreibung (XFLB): Datenfelder in Baum-Struktur**
 
 **tl;dr**: Der Standard XFLB (V 2.0.0) wäre mit einer Ansicht der Datenfelder in Baum-Struktur leichter nachzuvollziehen. Dieses Repo bietet [eine entsprechende Ansicht](xflb-fields-as-tree.txt).
